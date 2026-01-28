@@ -1,0 +1,69 @@
+Turn based auto battler? With RT character interaction
+Set up your critter before the battle, set it's stance and move list, as well as more permanent things like adjusting stats, etc. Critter begins with a brain type that has certain inherent characteristics. Body parts can be added and modified. There are limits and restrictions. Also base fight categories on types of brain or "chasis"
+Stats like:
+Power
+raw physical power and the ability to inflict physical effects
+Smarts
+Kind of a double edged sword? Maybe it can be used to resist some affects or trick opponents, but it also makes for a very willfull critter that's going to act in it's own best interests
+Intuition
+to predict enemy moves
+Speed
+to avoid attacks and attack first
+Reflex
+to minimize or avoid damage - More reactive than speed, as in mostly comes into play as a reaction to another critter or the VS
+Defense
+plain old physical defense
+Toughness
+ability/will to keep fighting despite bad things
+
+No real magic, or at least minimal "damage from afar" kind of situations, no psychic damage or anything like that
+
+battles can end in death, forfeit, or submission. Critters might run away if they're losing or if there's an apparent stat difference, or for other reasons. 
+
+During the battle you can use a ton of different items. Some are legal to use, some cannot and if you're caught will disqualify your critter. That could even change depending on the battle for various reasons: factions, tournament format and formality, brain/chasis categories, whatever. Items are used in real time. Some affect only your critter, some affect the whole battlefield. You aren't prevented from using any amount of items, but too many, or conflicting items can interect in bad or un-predictable ways.
+
+What's a critter?
+Chasis
+	Inherent stats
+	Slots and types
+		Weapon
+		Mobility
+		Defense
+		Buff/Debuff
+Brain
+	Inherent stats
+	Memory
+		Action slots
+		Co-routines (automatic actions)
+	
+
+Loose Battle Logic:
+Calculate inherent bonuses and handicaps
+	If there is a large difference in some stats and/or someone's Toughness is low, they may run
+	Certain chasis types may have advantage or disadvantage against others, or limb types?
+
+Who goes first?
+	Mostly compare speed, but also if Intuition is higher than opponent's Smarts gain a slight bonus
+
+Deciding on an Action
+	Actor's Intuition vs Opponent's Smart, if Intuition is much higher, Act can know all of Opp's potential actions
+	Consider Opp's stats, the higher Act's Intuition, the more accurate they are
+	Brains affect general stance, and add weight to certain decisions
+	Goal is to weight each decision and make a random decision based on that
+
+What's a player move and how are they dealt with?
+	attack?
+	defend?
+	evade?
+	buff and/or other?
+
+What's a computer move and how are they dealt with?
+	attack?
+	defend?
+	evade?
+	buff and/or other?
+
+End of battle
+	Who won
+	What was won
+	What was lost
